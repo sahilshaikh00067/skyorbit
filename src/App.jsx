@@ -380,7 +380,7 @@ function Hero({ goTo }) {
           <Reveal delay={420} className="hero-meta-row">
             <div className="avatar-stack">
               {[1, 2, 3, 4].map((n) => (
-                <img key={n} src={`https://images.unsplash.com/photo-${["1560250097-0b93528c311a","1580489944761-15a19d654956","1519085360753-af0119f7cbe7","1573497019940-1c28c88b4f3e"][n-1]}?auto=format&fit=crop&w=100&q=80`} alt="" />
+                <img key={n} src={`https://images.unsplash.com/photo-${["1560250097-0b93528c311a", "1580489944761-15a19d654956", "1519085360753-af0119f7cbe7", "1573497019940-1c28c88b4f3e"][n - 1]}?auto=format&fit=crop&w=100&q=80`} alt="" />
               ))}
             </div>
             <span>85+ teams building with Skyorbit</span>
