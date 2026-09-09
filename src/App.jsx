@@ -420,7 +420,7 @@ function TrustedTicker() {
   const loop = [...TRUSTED_LOGOS, ...TRUSTED_LOGOS];
   return (
     <div className="ticker-strip">
-      <span className="ticker-label">Trusted by teams at</span>
+      <span className="ticker-label">Trusted by teams at <br/> SR Business Solutions </span>
       <div className="ticker-viewport">
         <div className="ticker-track">
           {loop.map((name, i) => <span key={i} className="ticker-name">{name}</span>)}
@@ -526,7 +526,7 @@ function Services() {
       <div className="container">
         <Reveal className="section-head-center">
           <span className="eyebrow">What We Do</span>
-          <h2 className="h2">Full-stack capability, <em>one partner</em></h2>
+          <h2 className="h2">Full-stack capability, <em>one partner SR Business Solutions </em></h2>
         </Reveal>
         <div className="bento-grid">
           {SERVICES.map((s, i) => {
@@ -853,7 +853,7 @@ function Footer({ goTo, goPage }) {
         </div>
       </div>
       <div className="footer-bottom-v2">
-        <span>© {new Date().getFullYear()} Skyorbit Technologies. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} SR Business Solutions. All rights reserved.</span>
         <div className="footer-legal-v2">
           <button onClick={() => goPage("privacy")}>Privacy Policy</button>
           <button onClick={() => goPage("terms")}>Terms &amp; Conditions</button>
